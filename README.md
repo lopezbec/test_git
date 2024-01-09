@@ -1,6 +1,2 @@
-# test_git
+# VR CLICK 2020
 
-# CHANGE 1
-# CHANGE 2
-# CHANGE 3
-# CHANGE 4
