@@ -1,0 +1,11 @@
+Industrial Robotic Arm - Epic Cactus
+
+Update 12/05/18
+
+support for unity 2018.1 - built-in support for Substance Designer Materials has been removed - please download the Allegorithmic Importer:
+https://assetstore.unity.com/packages/tools/utilities/substance-in-unity-110555
+
+
+Update 20/11/17
+
+deconstructed version of the robot arm, not rigged.

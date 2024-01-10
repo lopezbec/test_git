@@ -1,0 +1,19 @@
+Welcome to the Variability Introduction module. 
+@Standard deviation is the most commonly used
+measure of dispersion or variability. 
+@The larger the value of the sample standard 
+deviation, the larger the sample variability. 
+@The sample standard deviation is the 
+square root of the sample variance. 
+@The sample Standard Deviation of a population is
+represented by S and the sample Variance is 
+represented by S^2.
+@Observe your data. You will notice that the 
+processing times between parts are not exactly
+the same, they are different.
+@The standard deviation, S, can be 
+calculated using the following equation. 
+@~
+@This calculation will give us the spread of the data. 
+Use the calculator provided on the tool table.
+Then submit your answer to the blackboard number pad. 

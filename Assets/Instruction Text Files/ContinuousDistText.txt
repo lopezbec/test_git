@@ -1,0 +1,57 @@
+This submodule deals with continuous random variables and the associated continuous \n
+probability distributions. If a sample space contains an infinite number of possibilities\n
+equal to the number of points on a line segment, it is called a continuous sample space.\n
+In the continuous case, we consider the probability of a random variable assuming any \n
+particular value to be 0. This is because, in continuous space, we are considering numbers\n
+of infinite precision. 
+@For example, if we consider the random variable corresponding to
+the time between producing defective parts X, the number of values between 2.99 seconds
+and 3.01 seconds are uncountably infinite. Therefore, we assign the probabilities
+associated with these individual values 0 and instead consider the probability that
+the random variable falls within a certain interval. In the above example, we could
+assign a non-zero probability to the interval 2 seconds to 3 seconds, i.e., P(2<X<3)
+@A continuous random variable can be represented by a probability density function.
+Because a probability density function is necessarily a function of the continuous
+random variable x, we express it as f(x). A probability density function should
+obey the following three properties:
+	f(x)>0, for all real numbers
+	Integral from neg infinity to infinity of f(x)dx=1
+	P(a<X<b)= integral from a to b of f(x) dx
+@As you see in property 3, the probability that a continuous random variable assumes
+a value on the interval [a, b] corresponds to the area underneath the probability
+density function over that interval. Click this button to generate a probability
+density function for the time between produced parts
+(should look something like the figure below).
+@IMAGE
+@Exponential Distribution
+Recall the Poisson distribution from the discrete distributions submodule, the
+Poisson distribution described the probability of x events occurring (number of
+produced defective parts) within a specified time or specified region such as
+“distance”, “volume”, et., given that the mean rate of occurrence is known.
+The exponential distribution describes the probability distribution of the time
+between two consecutive events in a Poisson process. The probability density function
+of the exponential distribution is as follows:
+	f(x) = lambda * e^-lambda*x, for x >= 0
+	0, for x less than 0
+@For the example of the defective parts, the mean of the number of defective parts
+in a sample of three produced parts was mu=0.5 and followed a Poisson distribution,
+observe the generated theoretical probability density function for this variable.
+Guide the students to observe the generated probability density function.
+@Now, observe the time between each two consecutive parts that produced by the
+injection molding machine and record these times using the stop watch. Collect these
+times for the parts produced within an interval of 500 seconds or more. Plot these values,
+does your probability density function matches the theoretical probability density
+function of the exponential distribution?
+@Normal Distribution
+Let’s now examine another probability density function, the normal distribution.
+This is a very common distribution that is often called the “bell curve” distribution.
+If we know the mean and standard deviation of the normal distribution, we have the
+following formula for the probability density function:
+@IMAGE
+@Let’s assume that the times between the parts produced by the injection molding machine
+now follow a normal distribution.
+@Now, observe the time between each two consecutive parts that produced by the injection
+molding machine and record these times using the stop watch. Collect these times for the
+parts produced within an interval of 500 seconds or more. Plot these values, does your
+probability density function matches the theoretical probability density function of the
+normal distribution? What is the mean of your data? What is the standard deviation?

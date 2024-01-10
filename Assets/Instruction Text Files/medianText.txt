@@ -1,0 +1,26 @@
+Welcome to the Median Instruction module. 
+Press A to continue or B to go back.
+@The median is a measurement of location that
+also represents a numerical summary of data.
+The data that is being referred to can be
+a sample or a population. 
+Press A to continue or B to go back.
+@Sample data is used to draw conclusions 
+about the population. Notations and context
+help distinguish between sample and
+population measures. 
+Press A to continue or B to go back.
+@The median of a population is represented by X~.
+Observe your data to calculate the median.
+We will find the median using 
+the following explanation on the board. 
+Press A to continue or B to go back.
+@In other words, we need to locate 
+the middle value of the data set.
+Press A to continue or B to go back.
+@Use the calculator provided on
+the tool table if needed.
+Then submit your answer to the 
+blackboard number pad. 
+Press A to continue or B to go back.
+

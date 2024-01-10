@@ -1,0 +1,78 @@
+fileFormatVersion: 2
+guid: 65ccce8998d95854496cf3890a6afa31
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: robot_arm_variant_material/robot_arm_variant_material
+    400000: robot_arm_variant_material/robot_arm_variant_material/Transform
+    2100000: mat.robot_arm
+    2300000: robot_arm_variant_material/robot_arm_variant_material/MeshRenderer
+    2800000: robot_arm_baseColor
+    2800002: robot_arm_normal
+    2800004: robot_arm_metallic
+    3300000: robot_arm_variant_material/robot_arm_variant_material/MeshFilter
+    11400000: sbsar
+    11400002: graph0
+    13500000: robot_arm_variant_material/robot_arm_variant_material/SphereCollider
+    100100000: robot_arm_variant_material
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 13
+  mGraphInstanceData:
+  - graphLabel: robot_arm
+    prototypeName: robot_arm
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://robot_arm\" label=\"\" >\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: baseColor,normal,metallic
+    texturePackingList:
+    - outputName: baseColor
+      alphaSource: baseColor
+    - outputName: normal
+      alphaSource: normal
+    - outputName: roughness
+      alphaSource: roughness
+    - outputName: metallic
+      alphaSource: smoothness
+    textureParameters:
+    - textureName: robot_arm_roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: robot_arm_baseColor
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: robot_arm_normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: robot_arm_metallic
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: baseColor
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: roughness
+      bLinear: 1
+    - outputName: metallic
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: 
+      bLockRatio: 1
+      bHighQuality: 0
+      textureWidth: 0
+      textureHeight: 0
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    material: {fileID: 2100000, guid: 65ccce8998d95854496cf3890a6afa31, type: 3}
+    generatedTextures: []

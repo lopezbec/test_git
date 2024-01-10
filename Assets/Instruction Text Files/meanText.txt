@@ -1,0 +1,33 @@
+Welcome to the Mean Introduction module.
+Press A to continue or B to go back.
+@The arithmetic mean is a measurement of location 
+that also represents a numerical summary of data.
+The data that is being refered 
+to can be sample or population.
+Press A to continue or B to go back.
+@Sample data is used to draw 
+conclusions about the population. 
+Notations and context help distinguish 
+between sample and population measures.
+Press A to continue or B to go back.
+@μ (pronounced Mew) is used to represent 
+the mean of a population, while X bar represents 
+the mean of a sample.
+Press A to continue or B to go back.
+@Observe your data. You will notice that the 
+processing times between parts are not exactly 
+the same, but tend to have a center.
+Press A to continue or B to go back.
+@This center is the sample arithmetic average 
+of these processing times. Arithmetic average or mean 
+of a set of sample data values. In our case, 
+the processing times can be calculated 
+using the following equation shown here.
+Press A to continue or B to go back.
+@In other words, we need to add up all 
+the processing times and divide the sum 
+by the number of values.
+Press A to continue or B to go back.
+@Use the calculator provided on the tool table to calculate the mean
+then submit your answer to the answer board.
+Press A to continue or B to go back.

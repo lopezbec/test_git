@@ -1,0 +1,11 @@
+Welcome to the Mode Introduction module. 
+@The Mode is a measure of location that 
+also represents a numerical summary of data. 
+@The data that is being referred to can 
+be a sample or a population.
+@Sample data is used to draw conclusions 
+about the population.
+Notations and context help distinguish 
+between sample and population measures. 
+@The mode of a population is represented by Xn.
+@Use the following explanation to find mode. 

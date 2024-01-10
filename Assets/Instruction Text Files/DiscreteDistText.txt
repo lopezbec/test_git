@@ -1,0 +1,63 @@
+@One way to summarize data is through the use of a frequency distribution,
+where the data is grouped, and the number of occurrences in each group is obtained.
+The relative frequency distribution is found by dividing the number of occurrences
+in each group by the total number of data points. A plot of the relative frequency 
+distribution is referred to as a histogram.
+@Data may be discrete or continuous. Thus, random variables could be 
+discrete or continuous. This submodule deals with discrete random variables
+and the associated discrete probability distributions.
+@Show histogram of data collected in the previous experiment.
+A random variable is a function that associates a real number with each element
+of a sample space of a statistical experiment. For example, in if we are
+collecting data about the number of defective parts that we observe every time
+we produce three parts, and assuming there is an experiment in which three parts
+are generated with a probability of ½ that a part is defective, the
+sample space, S, will be we have the sample space:
+S={DDD,DDN,DND,NDD,DNN,NDN,NND,NNN}
+@Where N means a non-defective part and D means a defective part. We can assign
+each point in the sample space a numerical value corresponding to the number of
+non-defective parts in a sample of three partsafter three generations. We will 
+use a capital letter, for example, X, to denote a random variable for the number
+of non-defective parts and a corresponding small letter, x, for one of its values.
+In this example, the random variable X = 2 for the elements in the subset
+E={NND,NDN,DNN}
+of the sample space S.
+@Now observe the generation of three parts note the value of the random variable
+X = x for the sequence observed.
+After showing one of these experiments (generating three parts), generate data
+for 100 of these experiments, and show the histogram.
+If the sample space contains a finite number of possibilities or an unending 
+sequence with as many elements as whole numbers, it is called a discrete sample
+space. A discrete random variable associates a discrete sample space with real numbers.
+@A discrete random variable can be represented by a probability mass function. Because
+a probability mass function is necessarily a function of the discrete random variable X,
+we express it as f(x). A probability mass function should obey the following three properties:
+	f(x)=0,for all values of X
+	Sum of f(x) = 1
+	P(X=x)= f(x)
+@As you see in property 3, discrete random variable assumes each value in the sample
+space with a certain probability. In the case of generating three parts above, the
+random variable X assumes the value 2 with probability 3/8, since 3 of the 8 sample
+points, which are equally likely, result in two non-defective parts.
+It is often convenient to represent all the probabilities of a random variable X
+by a function of the numerical values x, denoted f(x). Therefore we have f(x) = P(X = x),
+and f(2) = P(X=2) = 3/8. The set of ordered pairs (x,f(x)) is called the probability
+mass function or probability distribution of the discrete random variable X. For the
+part generation example, we have the probability mass function:
+@IMAGE
+@Experiments resulting in numerical values of a random variable X, the number of outcomes
+occurring during a given time interval or in a specified region such as area or volume, 
+are called Poisson experiments.\n 
+Going back to the example of number of defective parts in each three produced parts by
+the injection molding machine, the number of defective parts is called a Poisson random
+variable. The probability distribution of this variable is called Poisson distribution.
+@The mean number of defective parts is mu=lambda * t, where t is the specific “time”,
+“distance”, “area”, or “volume” that we are interested in. In our example, this is the
+volume of produced parts. Lambda is the rate at which the defective parts are produced.
+For example, let’s say we are interested in calculating the probability that one parts
+ will be produced defective by the injection molding machine in a sample of three produced
+parts, given that on average mu=0.5 parts are produced defective in a sample of three parts.
+@Observe the generation of defective parts drill casings according to a Poisson distribution
+when mu=0.5, and note how many parts, x, are generated. 
+Using the probability mass function for the Poisson random variable of the number of defective parts x:
+@IMAGE

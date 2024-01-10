@@ -1,0 +1,12 @@
+Welcome!
+This is a basic VR simulation of a drill manufacturing plant.
+Look down at your hands! You will be able to see the buttons available to you.
+Throughout the lesson, you can press A to see the next instructions or 
+you can press B to see the previous instructions.
+@This is a teaching module that aims to connect the knowledge
+that you learn in different Industrial Engineering courses.
+Select one of the courses to start interacting with a module.
+Press A to continue or B to go back.
+@Use the right trigger button while having the cursor over
+a lesson to select it, then choose ready.
+Press A to continue or B to go back.
