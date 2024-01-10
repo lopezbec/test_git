@@ -1,0 +1,237 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9306a11f44acae5448abc90bdc249c89, type: 3}
+  m_Name: EasyVoiceData
+  m_EditorClassIdentifier: 
+  dataVersion: 7
+  ids: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f00000010000000
+  groups:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  statuses: 01010101010101010101010101010101
+  speakerNames:
+  - <*default*>
+  - <*default*>
+  - <*default*>
+  - <*default*>
+  - <*default*>
+  - <*default*>
+  - <*default*>
+  - <*default*>
+  - <*default*>
+  - <*default*>
+  - <*default*>
+  - <*default*>
+  - <*default*>
+  - <*default*>
+  - <*default*>
+  - <*default*>
+  speechTexts:
+  - 'Hello!   Welcome to our virtual reality learning modules. This environment mimics
+    a facility that manufactures power drills. The learning modules aim to connect
+    the knowledge that you learn in different Industrial Engineering courses. Select
+    one of the modules to start interacting with the environment to learn about the
+    concepts.      To start look to your right at the modules board. To get there,
+    use the joystick on the left controller to point the teleportation circle to
+    a location close to the modules board. When released it will teleport you to
+    the modules board where you can reach out and hover over a module to select it.
+    Once selected, the module will display on this board and you will have options
+    to go Next, Previous, or Help if needed. '
+  - "Before you go further, let me describe this facility for you. This manufacturing
+    facility produces electric power drills. Drills are power tools that can process
+    holes through different types of materials. They can also be used to drive screws
+    into softer materials like wood.   In this room, you can disassemble a power
+    drill to see its components. Go to the classroom and check it out \u2026 "
+  - 'A power drill consists of a drive unit and a gear unit. The drive unit is the
+    back part of the drill that includes the electric motor. The gear unit is the
+    front part that includes the spindle that turns the drill bit. The line you will
+    see manufactures the plastics housing of the drive unit, assembles the components
+    inside the housings to create a power drill.   Please follow me to the line.
+    Here we can see an injection molding press that produces the plastics housing
+    of the power drill.  They are placed in a conveyor to cool down. A robot arm
+    picks defective parts and places them in a bin. The good parts are placed in
+    another bin at the end of the conveyer belt. Once a bin is full, they are transported
+    to another area of the facility where the assembly of the drill takes place.  '
+  - 'If you look behind the injection molding machine, you will see various controllers
+    to change the production rate speed and probability distribution, number of housings
+    per batch/press, and the probability distribution of the number of defective
+    units.   The robot arm speed can also be changed using the control pad behind
+    the robot arm. '
+  - "Welcome to the Mean Introduction module.  The arithmetic mean is a measurement
+    of location  that also represents a numerical summary of data.  The data that
+    is being refered  to can be sample or population. \nSample data is used to draw 
+    conclusions about the population.  Notations and context help distinguish  between
+    sample and population measures. "
+  - 'Now observe one of the injection molding machines, you will notice that the
+    times between the batches of the housings are not exactly the same due to the
+    variability in the molding process. Additional variability comes from measuring
+    errors (using the stopwatch). With all this variability, the collected values
+    tend to have a center.   This center is the sample arithmetic average of these
+    processing times. Arithmetic average or mean of a set of sample data values.
+    In our case, the time between the batches of the housings (it is the processing
+    times of the batches as well) can be calculated using the following equation
+    shown here. '
+  - "Welcome to the Median module. Similar to the mean, the median is a measurement
+    of location that also represents a numerical summary of data.  \n\n\nThe median
+    of a population is represented by X~(pronounced X tilde). The median for a sample
+    data  is identified by first sorting the data from smallest to largest and then
+    using the following:  "
+  - "Welcome to the Mode module. Similar to the mean and median, the mode is a measurement
+    of location that also represents a numerical summary of data.  \nThe mode for
+    sample data  is the value that appears most often.    When we are dealing with
+    categorical or discrete values-that is, frequency of a category or values without
+    decimal points such as 10, 11, 12- the mode is the value that appears most often.   
+    For example, if we count the number of parts we produce in 1hr- the number of
+    parts is a discrete value since we cannot produce half of a part- in an 8hr shift,
+    we can have something that looks like this: \n[51, 50, 45, 51, 52, 48, 51, 50] "
+  - "In this example, the mode- the value that appears most often, is 51, which appears
+    three times. Also, the mode might not be a unique value, for example, if we realize
+    that in the 3rd hour of the shift we made 50 parts, not 45, there would be two
+    modes 52 and 50\u2013 then this data set can be said to be bimodal. If the data
+    set has more than two modes, it is said to be multimodal.   In the case we are
+    dealing with continues data- that is, data that can take decimal values, such
+    as part as processing times- we need to use \u201Cbins\u201D to help discretize
+    the values. This will help us group the values in a table, and the mode is defined
+    as the class interval where most observations lie. The mode is rarely used as
+    a measure of central tendency for numeric variables. However, for categorical
+    variables, the mode is more useful because the mean and median do not make sense.  "
+  - Welcome to the Variability Introduction Module. Standard Deviation is the most
+    commonly used measure of dispersion or variability. The larger the value of the
+    sample standard deviation the larger the sample variability. The sample standard
+    deviation is the  square root of the sample variance. The sample Standard Deviation
+    of a population is represented by S and the sample Variance is  represented by
+    S^2.
+  - "This submodule deals with continuous random variables and the associated continuous
+    probability distributions. If a sample space contains an infinite number of possibilities
+    equal to the number of points on a line segment, it is called a continuous sample
+    space. In the continuous case, we consider the probability of a random variable
+    assuming any  particular value to be 0. This is because, in continuous space,
+    we are considering numbers of infinite precision.  \n\nFor example, if we consider
+    the random variable corresponding to the time between producing defective parts
+    X, the number of values between 2.99 seconds and 3.01 seconds are uncountably
+    infinite. Therefore, we assign the probabilities  associated with these individual
+    values 0 and instead consider the probability that the random variable falls
+    within a certain interval. In the above example, we could assign a non-zero probability
+    to the interval 2 seconds to 3 seconds, i.e., P(2<X<3) "
+  - "A continuous random variable can be represented by a probability density function.
+    Because a probability density function is necessarily a function of the continuous
+    random variable x, we express it as f(x). A probability density function should
+    obey the following three properties: \n\nAs you see in property 3, the probability
+    that a continuous random variable assumes a value on the interval [a, b] corresponds
+    to the area underneath the probability density function over that interval. Click
+    this button to generate a probability density function for the time between produced
+    parts (should look something like the figure below). \n"
+  - "Exponential Distribution  Recall the Poisson distribution from the discrete
+    distributions submodule, the Poisson distribution described the probability of
+    x events occurring (number of produced defective parts) within a specified time
+    or specified region such as \u201Cdistance\u201D, \u201Cvolume\u201D, et., given
+    that the mean rate of occurrence is known. The exponential distribution describes
+    the probability distribution of the time between two consecutive events in a
+    Poisson process. The probability density function of the exponential distribution
+    is as follows: \n\n\nFor the example of the defective parts, the mean of the
+    number of defective parts in a sample of three produced parts was mu=0.5 and
+    followed a Poisson distribution, observe the generated theoretical probability
+    density function for this variable. Guide the students to observe the generated
+    probability density function. \n\nNow, observe the time between each two consecutive
+    parts that produced by the injection molding machine and record these times using
+    the stop watch. Collect these times for the parts produced within an interval
+    of 500 seconds or more. Plot these values, does your probability density function
+    matches the theoretical probability density function of the exponential distribution? "
+  - "One way to summarize data is through the use of a frequency distribution, where
+    the data is grouped into different classes or intervals, and the number of occurrences
+    in each class is obtained. The relative frequency distribution is found by dividing
+    the number of occurrences in each class by the total number of data points. A
+    plot of the relative frequency  distribution is referred to as a histogram. \n\nData
+    may be discrete or continuous. Thus, random variables could be  discrete or continuous.
+    This submodule deals with discrete random variables and the associated discrete
+    probability distributions. "
+  - "Show histogram of data collected in the previous experiment. A random variable
+    is a function that associates a real number with each element of a sample space
+    of a statistical experiment. For example, in if we are collecting data about
+    the number of defective parts that we observe every time we produce three parts,
+    and assuming there is an experiment in which three parts are generated with a
+    probability of one half that a part is defective, the sample space, S, will be
+    we have the sample space: \n\n\n\nWhere N means a non-defective part and D means
+    a defective part. We can assign each point in the sample space a numerical value
+    corresponding to the number of non-defective parts in a sample of three partsafter
+    three generations. We will  use a capital letter, for example, X, to denote a
+    random variable for the number of non-defective parts and a corresponding small
+    letter, x, for one of its values. In this example, the random variable X = 2
+    for the elements in the subset of the sample space S\n\nNow observe the generation
+    of three parts note the value of the random variable X = x for the sequence observed.
+    After showing one of these experiments (generating three parts), generate data
+    for 100 of these experiments, and show the histogram. If the sample space contains
+    a finite number of possibilities or an unending  sequence with as many elements
+    as whole numbers, it is called a discrete sample space. A discrete random variable
+    associates a discrete sample space with real numbers. "
+  - "A discrete random variable can be represented by a probability mass function.
+    Because a probability mass function is necessarily a function of the discrete
+    random variable X, we express it as f(x). A probability mass function should
+    obey the following three properties: \n\n\n\n\nAs you see in property 3, discrete
+    random variable assumes each value in the sample space with a certain probability.
+    In the case of generating three parts above, the random variable X assumes the
+    value 2 with probability 3/8, since 3 of the 8 sample points, which are equally
+    likely, result in two non-defective parts. It is often convenient to represent
+    all the probabilities of a random variable X by a function of the numerical values
+    x, denoted f(x). Therefore we have f(x) = P(X = x), and f(2) = P(X=2) = 3/8.
+    The set of ordered pairs (x,f(x)) is called the probability mass function or
+    probability distribution of the discrete random variable X. For the part generation
+    example, we have the probability mass function: "
+  fileNames:
+  - Intro1
+  - <*default*>
+  - <*default*>
+  - <*default*>
+  - <*default*>
+  - <*default*>
+  - <*default*>
+  - <*default*>
+  - <*default*>
+  - <*default*>
+  - Continuous
+  - <*default*>
+  - <*default*>
+  - Discrete
+  - <*default*>
+  - <*default*>
+  clips:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  issues: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
